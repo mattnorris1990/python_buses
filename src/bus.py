@@ -25,5 +25,13 @@ class Bus:
         self.passengers.extend(passengers)
         return input_bus_stop.queue_length()
 
+    
+    # suggested solution
+    # def pick_up_from_stop(self, bus_stop_to_pick_up_from):
+    #     for passenger in bus_stop_to_pick_up_from.queue:
+    #         self.passengers.append(passenger)
+    #     bus_stop_to_pick_up_from.clear()
+
+
 
     
